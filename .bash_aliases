@@ -1,0 +1,6 @@
+alias template="cp -r ~/Documents/template/* ./ && npm install"
+alias nodeInstall="npm install -g serve bower gulp lite-server nodemon"
+alias gac="git add -A :/ && git commit -m"
+alias gp="git push origin HEAD"
+alias sassy="cp ~/Documents/template/gulpfile.js ./ && npm install --save gulp gulp-sass gulp-clean-css gulp-autoprefixer && mkdir sass && touch ./sass/style.scss"
+alias aliases="subl ~/.bash_aliases"
